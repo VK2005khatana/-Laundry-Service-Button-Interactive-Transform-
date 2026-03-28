@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  min-height: 100vh;
+}
+
+.text {
+  max-width: 500px;
+}
+
+.text h1 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.text span {
+  color: #007bff;
+}
+
+.text p {
+  margin-bottom: 25px;
+  color: #555;
+}
+
+/* 🔥 BUTTON */
+#btn {
+  padding: 14px 28px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+/* IMAGE */
+.image img {
+  width: 300px;
+}
+
+/* ✅ RESPONSIVE */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image img {
+    margin-top: 30px;
+  }
+}
